@@ -169,7 +169,7 @@ var soa = parseInt(jsPsych.data.getURLVariable('soa'))
     var key = jsPsych.data.getURLVariable('key')*/
     console.log(A1)
     
-   var idnum = 590
+   var idnum = 699
     var soa = 800
     var set = "A"
     var set1_text = "A3"
@@ -183,7 +183,7 @@ var soa = parseInt(jsPsych.data.getURLVariable('soa'))
     {
       type: jsPsychExtensionPipe,
       params: {
-        experiment_id: "nKejFt1EEBrL",
+        experiment_id: "Ilf59tXCrDgu",
         filename: () => `s2v_set${set}_id${idnum}_${soa}_${set1_text}${set2_text}_${key}.csv`,
         data_string: () => jsPsych.data.get().filter({screen: 'stim'}).csv()
       }
